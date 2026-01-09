@@ -1,0 +1,6 @@
+@bothomthit_HostAddress = http://localhost:5116
+
+GET {{bothomthit_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
