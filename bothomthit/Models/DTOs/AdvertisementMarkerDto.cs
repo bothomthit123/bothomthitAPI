@@ -6,8 +6,6 @@
         public int PlaceId { get; set; }
         public string Title { get; set; } = null!;
         public string? BannerImageUrl { get; set; }
-
-        // Đây là 2 trường quan trọng mà Flutter cần
         public double Latitude { get; set; }
         public double Longitude { get; set; }
 
