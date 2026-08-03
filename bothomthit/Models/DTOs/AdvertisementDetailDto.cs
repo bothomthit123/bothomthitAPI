@@ -15,7 +15,7 @@ namespace bothomthit.Models.DTOs
         // Từ Place (thông qua JOIN)
         public int PlaceId { get; set; }
         public string PlaceName { get; set; } = null!;
-        public string? PlaceAddress { get; set; } // Giả sử Bảng Place có cột Address
+        public string? PlaceAddress { get; set; } 
         public double Latitude { get; set; }
         public double Longitude { get; set; }
     }
