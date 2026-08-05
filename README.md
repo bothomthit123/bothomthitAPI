@@ -75,3 +75,15 @@ Flow data chart
 Results from the Internal Database, Foursquare, and (conditionally) OSM are parsed into a standardized MapPlace object model and merged into a single, unified dataset.
 5. Spatial Deduplication  
 Because data originates from multiple independent sources, overlapping locations are inevitable. The system applies a geospatial deduplication algorithm. It calculates the Great-Circle distance between coordinates; if two data points are located within a 20-meter radius ($d < 20m$) of each other, they are flagged as duplicates and merged to provide a clean, clutter-free user interface.
+
+I/O Diagram
+-----------
+<img width="2012" height="781" alt="image" src="https://github.com/user-attachments/assets/bb935b10-2209-4acd-98b3-d664e5dbc2be" />
+
+ERD
+---
+<img width="836" height="706" alt="Ảnh chụp màn hình 2025-11-24 192358" src="https://github.com/user-attachments/assets/49522949-444b-4d55-978d-6570717e1cf4" />
+
+Class Diagram
+-----------
+<img width="6012" height="6260" alt="classdiagram" src="https://github.com/user-attachments/assets/e79bb427-4dc4-4ea0-a017-7c1a4c689a6f" />
